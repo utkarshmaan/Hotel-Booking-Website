@@ -1,0 +1,44 @@
+.image-heading {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/033/436/413/large/monika-andruszkiewicz-banner-2k.jpg?1609606518);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 30vh;
+    line-height: 30vh;
+    position: relative;
+    z-index: -2;
+    box-shadow: 0 0 10px 0 black;
+  }
+  .image-heading .h-container {
+    display: flex;
+    justify-content: space-between;
+    margin:0 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .image-heading h1 {
+    color:black;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  .image-heading .h-btn {
+    background-color: transparent;
+    font-weight: 400;
+    padding: 0 10px;
+    word-spacing: 5px;
+    font-size: 1.5rem;
+    
+  }
+  .h-btn a {
+    padding: 0%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+    cursor: pointer;
+  }
+  .h-btn span {
+    text-transform: capitalize;
+    word-spacing: 30px;
+    color: black;
+  }

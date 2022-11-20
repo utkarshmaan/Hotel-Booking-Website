@@ -1,0 +1,85 @@
+.f-cont{
+    background-color: #9CD3D8;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+.f-content{
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 30px;
+}
+.f-follow{
+    display: block;
+}
+.f-follow h1{
+    margin:20px 0 30px;
+}
+.f-icons{
+    width:30%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.f-icons i{
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.f-links{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.f-links a{
+    color:black;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.f-links li{
+    padding:10px;
+}
+.f-sr{
+    margin-left: 100px;
+    display: flex;
+}
+.f-sr li{
+    margin:auto;
+   font-weight: 300;
+}
+@media (max-width:1200px){
+    .f-links li{
+        padding:0;
+        justify-content:space-around;
+    }
+    .f-icons i{
+        margin: 0 10px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:768px){
+    .f-content{
+        justify-content: space-evenly;
+        display: block;
+    }
+    .f-icons{
+       width:100%;
+        justify-content:space-around;
+    }
+    .f-sr li{
+        text-align: center;
+     }
+     .f-sr{
+        margin-left: 0;
+     }
+    
+}
+@media (max-width:580px){
+.f-links{
+    display: block;
+}
+}
+
+
